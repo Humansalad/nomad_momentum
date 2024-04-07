@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" contetn="IE=edge">
+        <meta name="viewport" contetn="width=device-width, initial-scale=1.0">
+
+        <title>Momentum clone</title>
+
+        <link href="css/style.css" rel="stylesheet" />
+        <style>
+        </style>
+    </head>
+    <body>
+        <form id="login-form" class="hidden">
+            <input 
+                required 
+                maxlength="15" 
+                type="text" 
+                placeholder = "What is your name?"
+            />
+            <input type="submit" value="Log In"/>
+        </form>
+        <h2 id="clock">00:00</h2>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form">
+            <input id="todo-input" type="text" placeholder="오늘 할일을 작성해 보세요" required />
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+        <div id="weather">
+            <span></span>
+            <span fontsize="20px"></span>
+            <span></span>
+        </div>
+        <script src="js/clock.js"></script>
+        <script src="js/greetings.js"></script>
+        <script src="js/quotes.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>

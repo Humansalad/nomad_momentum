@@ -1,15 +1,5 @@
 const images = [
-    "1.jpeg",
-    "2.jpeg",
-    "3.jpeg",
-    "4.jpeg",
-    "5.jpeg",
-    "6.jpeg",
-    "7.jpeg",
-    "8.jpeg",
-    "9.jpeg",
-    "10.jpeg",
-    "11.jpeg",
+    "1.jpg"
 ]
 function rand(Max) {
     return Math.floor(Math.random() * (Max));
@@ -22,7 +12,7 @@ const chosenImage = images[RandomImageNumber];
 /*
 const bgImage = document.createElement("img");
 bgImage.src = `css/Photo/${chosenImage}`;
-bgImage.width = 1080;
+bgImage.height = vh;
 document.body.appendChild(bgImage);
 */
 const body = document.querySelector("body");

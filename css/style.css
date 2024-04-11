@@ -96,6 +96,7 @@ input::placeholder {
     width: 100vw;
     color:white;
     text-shadow : 1px 1px 1px black;
+    text-align: center;
 }
 #weather{
     display:flex;

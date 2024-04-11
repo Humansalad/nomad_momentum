@@ -12,7 +12,7 @@ const chosenImage = images[RandomImageNumber];
 /*
 const bgImage = document.createElement("img");
 bgImage.src = `css/Photo/${chosenImage}`;
-bgImage.height = vh;
+bgImage.height = 1080;
 document.body.appendChild(bgImage);
 */
 const body = document.querySelector("body");

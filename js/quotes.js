@@ -20,7 +20,7 @@ const quotes =[
     author : "켄러"
 },
 {
-    quote : "할수 없으면 즐겨라",
+    quote : "피할수 없으면 즐겨라",
     author : "로버트 엘리엇"
 },
 {
